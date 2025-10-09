@@ -1,5 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    background-color: rgb(89, 0, 255);
-    /*Comment*/
-    font-family: Bitcount Grid Single Ink;
+    background-color: #5900ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #4400cc;
+    padding: 20px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav {
+    background-color: #3300aa;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: #6633ff;
+    border-radius: 5px;
+}
+
+main {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
+    border: 4px solid #3300aa;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #5900ff;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 3px solid #5900ff;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #4400cc;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+main a {
+    color: #5900ff;
+    font-weight: 700;
+}
+
+main a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 40px;
+    margin: 15px 0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+    margin: 15px 0;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+dl {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #5900ff;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+dt {
+    font-weight: 700;
+    color: #5900ff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+address {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px solid #5900ff;
+    border-radius: 8px;
+    font-style: normal;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #3300aa;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+strong {
+    color: #5900ff;
+    font-weight: 700;
+}
+
+em {
+    color: #ff6600;
+    font-style: italic;
 }
