@@ -32,8 +32,37 @@
         <h1>Request a Delivery</h1>
         <form method="get" class="myForm" action="thanks.html">
 
+            <fieldset>
+            <legend>Customer Information</legend>
             <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required></label>
+            </fieldset>
 
+            <fieldset>
+                <legend>Delivery Method</legend>
+                <label><input type="radio" name="method" id="drone">Drone (2hrs)</label>
+                <label><input type="radio" name="method" id="cycle">Cycle (4hrs)</label>
+                <label><input type="radio" name="method" id="robot">Robot (6hrs)</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="porch" id="chosen">Front Porch</label>
+                <label><input type="checkbox" name="deck" id="chosen">Deck</label>
+                <label><input type="checkbox" name="garage" id="chosen">Inside Garage</label>
+                
+                <label>
+                <select name="time" id="">
+                    <option value="none">Please Select</option>
+                    <option value="morning">7:00am-11:00am</option>
+                    <option value="noon">11:00am-2:00pm</option>
+                    <option value="afternoon">2:00am-5:00am</option>
+                    <option value="evening">5:00pm-8:00pm</option>
+                </select>
+                </label>
+
+            </fieldset>
 
 
             <input type="submit" value="Send Delivery Request">
