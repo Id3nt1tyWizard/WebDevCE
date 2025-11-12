@@ -36,7 +36,7 @@
             <legend>Customer Information</legend>
             <label>First Name*<input type="text" name="fname" required></label>
             <label>Last Name*<input type="text" name="lname" required></label>
-            <label>Cell Number*<input type="tel" name="phone" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
             </fieldset>
 
             <fieldset>
@@ -61,8 +61,11 @@
                     <option value="evening">5:00pm-8:00pm</option>
                 </select>
                 </label>
-
             </fieldset>
+
+            <label> Comments
+                <textarea name="comments" placeholder="Please add any special instructions"></textarea>
+            </label>
 
 
             <input type="submit" value="Send Delivery Request">
