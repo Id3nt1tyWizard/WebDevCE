@@ -153,6 +153,7 @@ footer {
     border: 2px solid #ffffff;
     border-radius: 8px;
     margin-top: 20px;
+    clear:both;
 }
 
 strong {
@@ -163,4 +164,17 @@ strong {
 em {
     color: #cc0055;
     font-style: italic;
+}
+
+figure.home{
+    float: right;
+}
+
+figure.home img{
+   max-width: 100%;
+   height: auto; 
+}
+figure.home figcaption{
+    text-align: center;
+    font-size: 0.8rem;
 }
