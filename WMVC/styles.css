@@ -194,7 +194,7 @@ div.gallery figure img{
     height: auto;
 }
 
-.gallery figcaption{
+div.gallery figcaption{
     text-align: center;
     font-size: 1rem;
 }
