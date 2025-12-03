@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Graydon">
+    <meta name="description" content="A page for the Wasatch Mens Volleyball Club">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Wasatch Mens Volleyball Club</title>
+</head>
+<body>
+
+    <header>
+        <span>WMVC Merch</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="coaches.html">Coaches</a></li>
+            <li class="active"><a href="merch.html">Merch</a></li>
+            <!--More to come-->
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Request a Delivery</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Method</legend>
+                <label><input type="radio" name="method" id="drone">Regular Delivery (2-4 Business Weeks)</label>
+                <label><input type="radio" name="method" id="cycle">Expedited Delivery (5-7 Business Days) +$20.00</label>
+                <label><input type="radio" name="method" id="robot">Teleportation (1 minute) +$1,000.00</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="porch" id="chosen">Front Porch</label>
+                <label><input type="checkbox" name="deck" id="chosen">Deck</label>
+                <label><input type="checkbox" name="garage" id="chosen">Inside Garage</label>
+                
+                <label>
+                    Time of Delivery
+                <select name="time" id="">
+                    <option value="none">Please Select</option>
+                    <option value="morning">7:00am-11:00am</option>
+                    <option value="noon">11:00am-2:00pm</option>
+                    <option value="afternoon">2:00am-5:00am</option>
+                    <option value="evening">5:00pm-8:00pm</option>
+                </select>
+                </label>
+            </fieldset>
+
+            <label> Comments
+                <textarea name="comments" placeholder="Please add any special instructions"></textarea>
+            </label>
+
+
+            <input type="submit" value="Send Delivery Request">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 &bull; Graydon &bull; WebDev &bull; Tel: 1234567890</p> <address>930 500 E, Heber City</address>
+    </footer>
+    
+</body>
+</html>

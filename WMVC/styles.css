@@ -6,7 +6,7 @@ body {
     font-family: 'Bitcount Grid Single Ink';
     font-size: 18px;
     font-weight: 400;
-    color: #ffffff;
+    color: #f2f0ef;
     margin: 0;
     padding: 20px;
 }
@@ -14,7 +14,7 @@ body {
 header {
     background-color: #cc0055;
     padding: 20px;
-    border: 3px solid #ffffff;
+    border: 3px solid #f2f0ef;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -27,7 +27,7 @@ header span {
 nav {
     background-color: #cc0055;
     padding: 10px;
-    border: 2px solid #ffffff;
+    border: 2px solid #f2f0ef;
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -44,7 +44,7 @@ nav li {
 }
 
 nav a {
-    color: #ffffff;
+    color: #f2f0ef;
     text-decoration: none;
     padding: 15px 20px;
     display: block;
@@ -52,7 +52,7 @@ nav a {
 }
 nav .active a{
     background-color: #0ee207;
-    color: white;
+    color: #f2f0ef;
     border-radius: 5px;
 }
 
@@ -62,7 +62,7 @@ nav a:hover {
 }
 
 main {
-    background-color: #ffffff;
+    background-color: #f2f0ef;
     color: #000000;
     padding: 30px;
     border: 4px solid #09ff00;
@@ -147,10 +147,10 @@ address {
 
 footer {
     background-color: #cc0055;
-    color: #ffffff;
+    color: #f2f0ef;
     padding: 20px;
     text-align: center;
-    border: 2px solid #ffffff;
+    border: 2px solid #f2f0ef;
     border-radius: 8px;
     margin-top: 20px;
     clear:both;
@@ -197,4 +197,54 @@ div.gallery figure img{
 div.gallery figcaption{
     text-align: center;
     font-size: 1rem;
+}
+
+.myForm {
+    background-color: #f2f0ef;
+}
+
+.myForm fieldset {
+    border: 1px solid #cc0055;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.myForm legend {
+    color: #cc0055;
+    font-size: .8rem;
+}
+
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm  [type=text], .myForm  [type=tel], .myForm textarea{
+    display: block;
+}
+.myForm  [type=text], .myForm  [type=tel], .myForm textarea {
+ 
+    border: solid 1px #cc0055;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+
+
+}
+.myForm textarea {
+    height: 6rem;
+}
+
+.myForm :required {
+    background-color: rgba(241, 9, 13, .1);
+}
+
+.myForm [type=submit] {
+background-color: #cc0055;
+border: none;
+padding: 1rem 2rem;
+border-radius:10px;
+color: #f2f0ef;
+margin: 1rem 0 0 1vw;
+
 }
