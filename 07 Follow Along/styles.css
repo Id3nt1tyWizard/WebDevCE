@@ -26,9 +26,42 @@ header p {
 
 /* small screen navigation stuff here */
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 800px) {
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: .8rem;
+        color: #8C501B;
+        text-decoration: none;
+        border-bottom: solid 1px #eee;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    nav .active a {
+        background-color: #8C501B;
+        color: white;
+        background-image: linear-gradient(to bottom, #8b5022, #663b19 );
+    }
+
+}
 
 /* large screen navigation */
+
+
+@media only screen and (max-width: 801px) {
+
+    nav {
+    border-top: solid 1px #E0E6E6;
+    }
+}
+
 nav {
     border-top: solid 1px #E0E6E6;
     
