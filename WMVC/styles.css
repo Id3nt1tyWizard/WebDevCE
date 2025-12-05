@@ -1,8 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&display=swap');
+  * {box-sizing: border-box;}
 
-body {
-    background-color: #09ff00;
+
+  body {
+    background-image: linear-gradient(to bottom,#09ff00,#0ee207);
     font-family: 'Bitcount Grid Single Ink';
     font-size: 18px;
     font-weight: 400;
@@ -17,11 +19,38 @@ header {
     border: 3px solid #f2f0ef;
     border-radius: 10px;
     margin-bottom: 20px;
+    background-image: url(images/cohenStupid.jpg);
+    background-size: 100% 100%;
 }
 
 header span {
     font-size: 32px;
     font-weight: 700;
+}
+
+@media only screen and (max-width: 800px) {
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: .8rem;
+        color: #09ff00;
+        text-decoration: none;
+        border-bottom: solid 1px #eee;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    nav .active a {
+        background-color: #0ee207;
+        color: white;
+    }
+
 }
 
 nav {
@@ -192,6 +221,11 @@ div.gallery figure{
 div.gallery figure img{
     width: 300px;
     height: auto;
+    transition: box-shadow 0.3s ease;
+}
+
+div.gallery figure img:hover{
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
 }
 
 div.gallery figcaption{
