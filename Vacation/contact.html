@@ -36,6 +36,14 @@
             <label>First Name*<input type="text" name="fname" required></label>
             <label>Last Name*<input type="text" name="lname" required></label>
             <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+            <label>
+                    <select name="time" id="">
+                        <option value="none">Urgency</option>
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                </label>
             </fieldset>
 
             <fieldset>
@@ -45,6 +53,11 @@
                 <label><input type="radio" name="method" id="Hakuba">Hakuba</label>
             </fieldset>
 
+            <label> Comments
+                <textarea name="comments" placeholder="Please add any special instructions"></textarea>
+            </label>
+
+            <input type="submit" value="Submit">
         </form>
     </main>
 
